@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/debug', (req, res) => {
-    res.send('TODO on later')
+    res.send('TODO on later..')
   });
 
 app.listen(8000, () => {
